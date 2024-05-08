@@ -1,0 +1,64 @@
+button {
+  background-color: white;
+  font-size: larger;
+  cursor: pointer;
+  border: 0px solid;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.highlight {
+  border-bottom: 1px solid red;
+}
+.listItem {
+  box-shadow: 0 0 2px 2px #bfbfbf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.c-image {
+  align-self: flex-start;
+  height: 30px;
+  width: 30px;
+}
+.dishImage {
+  height: 100px;
+  width: 100px;
+}
+.button-container {
+  display: inline-flex;
+  background-color: blue;
+  width: 100px;
+  border-radius: 7px;
+  padding-left: 25px;
+}
+.price {
+  color: rgb(59, 46, 46);
+  font-weight: 500;
+}
+.description {
+  color: #bfbfbf;
+}
+.calories {
+  color: orange;
+}
+.increment {
+  border-radius: 100%;
+  background-color: blue;
+  
+  color: white;
+}
+.items {
+  width: 50%;
+}
+.cust {
+  color: blue;
+}
+.add-to-cart {
+  outline: 1px solid white;
+  border-color: blue;
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+}

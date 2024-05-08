@@ -1,0 +1,20 @@
+.button {
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border: 0px solid;
+  height: 40px;
+}
+
+.highlight {
+  border-bottom: 1px solid red;
+}
+@media (max-width: 768px) {
+  .button {
+    background-color: white;
+    font-size: 10px;
+    cursor: pointer;
+    border: 0px solid;
+    height: 40px;
+  }
+}

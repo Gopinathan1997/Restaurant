@@ -1,0 +1,52 @@
+.navbar {
+  height: 9%;
+  border-bottom: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .navbar {
+    height: 10%;
+    border-bottom: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tabsContainer {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+  }
+  .large {
+    display: none;
+  }
+}
+.name {
+  padding-left: 10px;
+}
+.cart {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+sup {
+  padding-bottom: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  padding: 3px;
+}
+.tabsContainer {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.listItem {
+  padding: 10px 20px;
+}
+.itemsContainer {
+  list-style-type: none;
+}

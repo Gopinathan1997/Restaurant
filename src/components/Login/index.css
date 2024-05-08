@@ -1,0 +1,27 @@
+.bg-container {
+  display: flex;
+
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  width: 30vw;
+}
+.login-img {
+  width: 50vw;
+}
+label {
+  align-self: flex-start;
+}
+.logo {
+  width: 25vw;
+}
+input {
+  font-size: large;
+  align-self: stretch;
+}
